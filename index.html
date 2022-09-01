@@ -1,12 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Antonin Stephany</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>oNews</title>
 </head>
 <body>
-    <h1>Test</h1>
+
+    <main>
+
+        <section class="main__section-left"> 
+            <article class="section__article-logo">
+                <img class="section_left-logo-img" src="./images/onews.svg" alt="Logo">
+                <h1>O'CLOCK STUDENTS NEWS</h1>
+            </article>
+
+            <article class="section__article-news">
+                <h2>Latest news<span>from our students</span></h2>
+                <p class="section__article-news--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ullam commodi, a porro necessitatibus itaque natus officia eum sequi quod, odit nesciunt laboriosam nostrum et rem perferendis maiores earum eius!</p>
+            </article>
+
+            <footer class="section__footer">
+
+                <ul class="footer__list-link">
+                    <li><a class="footer__link" href="#plan">Plan du site</a></li>
+                    <li><a class="footer__link" href="#mentions">Mentions légales</a></li>
+                    <li><a class="footer__link" href="#contact">Contact</a></li>
+                </ul>
+
+            </footer> 
+        </section>
+
+        <section class="main__section-right">
+            <header class="main__section-right_header">
+                <h1>Latest news</h1>
+            </header>
+
+            <div class="section-right__container_article">
+
+                <article>
+                    <span><a class="article__tags news" href="#news">news</a></span>
+                    <h2 class="article_h2">Lorem ipsum dolor sit amet</h2>
+                    <div class="section-right_infos-article">
+                        <img class="article__icon" src="./images/icon-john.png" alt="John Marchill">
+                        <p>John Marchill<span class="date">le 21 Juillet 2019</span></p>
+                    </div>
+                    <p class="section-right_description-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque scelerisque suscipit nibh quis porttitor. Voilà, je tenais à le dire.
+                    </p>
+                    <a class="article__continue" href="#">Continue reading</a>
+                </article>
+
+                <article>
+                    <span><a class="article__tags team" href="#team">team</a></span>
+                    <h2 class="article_h2">Le pair programming pour les n00bs</h2>
+                    <div class="section-right_infos-article">
+                        <img class="article__icon" src="./images/icon-dar.png" alt="Paul Darson">
+                        <p>Paul Darson<span class="date">le 2 Août 2019</span></p>
+                    </div>
+                    <p class="section-right_description-article">Le pair programming pour les dévs, c'est un peu comme certains fromages : c'est mieux à deux.
+                    </p>
+                    <a class="article__continue" href="#">Continue reading</a>
+                </article>
+
+                <article>
+                    <span><a class="article__tags work" href="#work">work</a></span>
+                    <h2 class="article_h2">Pourquoi j'aime JS</h2>
+                    <div class="section-right_infos-article">
+                        <img class="article__icon" src="./images/icon-ohz.png" alt="Bruce Ékoute">
+                        <p>Bruce Ékoute<span class="date">le 7 Août 2019</span></p>
+                    </div>
+                    <p class="section-right_description-article">JavaScript est un langage très particulier, c'est indéniable. Je vous propose de faire le tour de toutes ces petites choses simples qui lui donnent une saveur si unique.
+                    </p>
+                    <a class="article__continue" href="#">Continue reading</a>
+                </article>
+
+                <article>
+                    <span><a class="article__tags team" href="#team">team</a></span>
+                    <h2 class="article_h2">La situation de scribe</h2>
+                    <div class="section-right_infos-article">
+                        <img class="article__icon" src="./images/icon-spr.png" alt="Otis">
+                        <p>Otis<span class="date">le 5 Septembre 2019</span></p>
+                    </div>
+                    <p class="section-right_description-article">Mais, vous savez, moi je ne crois pas qu'il y ait de bonne ou de mauvaise situation. Moi, si je devais résumer ma vie aujourd'hui avec vous, je dirais que c'est d'abord des rencontres, des gens qui m'ont tendu la main, peut-être à un moment où je ne pouvais pas, où j'étais seul chez moi. Et c'est assez curieux de se dire que les hasards, les rencontres forgent une destinée...
+                    </p>
+                    <a class="article__continue" href="#">Continue reading</a>
+                </article>
+
+                <article>
+                    <span><a class="article__tags work" href="#work">work</a></span>
+                    <h2 class="article_h2">Le travail : pourquoi ce n'est jamais naturel ?</h2>
+                    <div class="section-right_infos-article">
+                        <img class="article__icon" src="./images/icon-tr.png" alt="Trouveur d'Eperon de Wyverne">
+                        <p>Trouveur d'Éperon de Wyverne<span class="date">le 6 Septembre 2019</span></p>
+                    </div>
+                    <p class="section-right_description-article">Le terme "travail" vient du latin "trepalium" qui signifie "torture". Voilà, je vous laisse avec ça.
+                    </p>
+                    <a class="article__continue" href="#">Continue reading</a>
+                </article>
+
+                <article>
+                    <span><a class="article__tags news" href="#news">news</a></span>
+                    <h2 class="article_h2">Les chats augmentent la longévité</h2>
+                    <div class="section-right_infos-article">
+                        <img class="article__icon" src="./images/icon-tre.png" alt="Rincevent">
+                        <p>Rincevent<span class="date">le 27 Septembre 2019</span></p>
+                    </div>
+                    <p class="section-right_description-article">Jusqu'à un certain nombre. Au delà de 28 chats, les scientifiques semblent quelque peu sceptiques. Surtout sur l'aspect budgétaire...
+                    </p>
+                    <a class="article__continue" href="#">Continue reading</a>
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+    
 </body>
 </html>
+
+
+
