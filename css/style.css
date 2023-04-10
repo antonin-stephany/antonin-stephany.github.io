@@ -49,3 +49,18 @@ main{
 .project:not(:first-of-type){
   padding-top: 25px;
 }
+
+@media only screen and (max-width: 800px){
+  .project{
+    grid-template-columns: 20vw auto 10vw 10vw;
+  }
+  body{
+    margin: 0 20px;
+  }
+  h1{
+      font-size: 2rem;
+  }
+  .project{
+    font-size: 10px;
+  }
+}
