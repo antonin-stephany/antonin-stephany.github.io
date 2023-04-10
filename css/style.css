@@ -39,7 +39,7 @@ main{
   grid-template-columns: 10vw 20vw 5vw 5vw;
   grid-column-gap: 20px;
   font-family: Inter UI;
-  font-size: 1vw;
+  font-size: 1.3vw;
   line-height: 125%;
 }
 .project:not(:last-of-type){
